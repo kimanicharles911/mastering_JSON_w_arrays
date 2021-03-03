@@ -22,15 +22,16 @@
         capacity: 5,
       }
     ];
-
-    let car1 = {
-      color: "red",
-      type: "sedan",
-      registration: new Date("2019-01-03"),
+    console.table(cars);
+    
+    let car2 = {
+      color: "brown",
+      type: "suv",
+      registration: new Date("2019-02-08"),
       capacity: 5,
-    }
+    };
 
-    console.table(cars.unshift(car1));
+    cars.push(car2);
     console.table(cars);
 
 
